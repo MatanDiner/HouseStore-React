@@ -1,0 +1,82 @@
+.Card {
+ 
+    width: 30%;
+    border-radius: 5px;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: aqua;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    color: navy;
+}
+.cart_card{
+    background-color: #40a4c8;
+}
+
+@media(max-width:499px){
+    .Card {
+        position: relative;
+        margin-left: -170px;
+        left: 50%;
+        width: 300px;
+        border-radius: 5px;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+}
+
+
+.table{
+    display: inline-block;
+}
+.buy{
+    display: inline-block;
+    margin: 15px auto;
+}
+.button{
+    height: 45px;
+    background-color: greenyellow;
+    color: blue;
+    border-radius: 20px;
+    width: 90px;
+    border-color: tomato;
+    font-weight: bold;
+    cursor: pointer;
+}
+.removeBTN{
+    background-color: #F44336;
+    color: #cddc39;
+    border-radius: 15px;
+    height: 30px;
+    width: 100px;
+    border-color: royalblue;
+    cursor: pointer;
+}
+
+.addNotClicked{
+    background-color: greenyellow;
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.addClicked{
+    background-color: salmon;
+    color: yellow;
+    border-radius: 10px;
+    font-weight: bold;
+    border-color: red;
+    cursor: pointer;
+}
+
+.picture{
+    height: 200px;
+    width: 300px;
+}
+@media(max-width:499px){
+    .picture{
+        width: 200px;
+    }
+}

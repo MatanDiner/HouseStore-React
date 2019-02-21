@@ -1,0 +1,42 @@
+.Card {
+    width: 30%;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #d6c8c6;
+    margin-bottom: 10px;
+    display: inline-block;
+    color: red;
+}
+
+
+@media(max-width:499px){
+    .Card {
+        width: 92%;
+       
+    }
+}
+
+
+.errorLabel{
+    color: red;
+    font-weight: bold;
+}
+
+.picture{
+    height: 200px;
+    width: 300px;
+}
+@media(max-width:499px){
+    .picture{
+        width: 200px;
+    }
+    .cartTable{
+
+        position: relative;
+        left: 50%;
+        margin-left: -100px;
+        font-size: small;
+    }
+
+}

@@ -1,0 +1,29 @@
+.form{
+    background-color: #40a4c8;
+    width: 350px;
+    display: inline-block;
+    margin-left: 600px;
+    margin-top: -190px;
+}
+.elementsDiv{
+    width: 200px;
+    margin: 10px auto;
+}
+.buttonDiv{
+    text-align: center;
+}
+
+@media(max-width:499px){
+    .form{
+        position: relative;
+        width: 350px;
+        left: 50%;
+        margin-top: 0px;
+        margin-left: -175px;
+    }
+}
+
+.errorLabel{
+    color: red;
+    font-weight: bold;
+}
